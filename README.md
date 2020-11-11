@@ -2,7 +2,8 @@
 A simple PayUMoney payment gateway integration library
 
 # PayUMoney API for PHP
-create a merchant account on [PayUMoney](https://www.payumoney.com/)
+create a merchant account on [PayUMoney](https://www.payumoney.com/) site
+
 Simple library for accepting payments via [PayUMoney](https://www.payumoney.com/).
 
 ## Installation
