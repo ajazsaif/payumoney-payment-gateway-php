@@ -1,0 +1,20 @@
+{
+    "name": "ajaz/payumoney-payment-gateway-php",
+    "description": "A simple PayUMoney payment gateway integration library",
+    "keywords": ["php", "payment-gateway", "payumoney", "payu-money", "payumoney-payment", "payumoney-payment-gateway"],
+    "homepage": "https://github.com/ajazsaif/payumoney-payment-gateway-php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "ajaz",
+        "email": "ajazaalam@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "PaymentGateway\\PayUmoney\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0"
+    }
+}
