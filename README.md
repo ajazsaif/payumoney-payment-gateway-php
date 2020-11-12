@@ -48,7 +48,7 @@ $params = [
 ];
 
 // Redirects to PayUMoney
-$data = $payumoney->initializePurchase($params)->send();
+$data = $payumoney->initializePurchase($params);
 
 $output = sprintf('<form id="payment_form" method="POST" action="%s">', $payumoney->getServiceUrl());
 
